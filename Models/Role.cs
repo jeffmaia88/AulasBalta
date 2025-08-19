@@ -11,6 +11,8 @@ namespace blog.Models
         public string name { get; set; }
         public string Slug { get; set; }
 
+        public IList<User> Users { get; set; }
+
 
     }
 }

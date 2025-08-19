@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Jefferson\\Desktop\\Desenvolvimento\\Sharp\\Blog\\Blog.csproj": {}
+    "E:\\Users\\jefferson.maia\\Desktop\\Desenvolvimento\\Sharp\\Balta\\AulasBalta\\Blog.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Jefferson\\Desktop\\Desenvolvimento\\Sharp\\Blog\\Blog.csproj": {
+    "E:\\Users\\jefferson.maia\\Desktop\\Desenvolvimento\\Sharp\\Balta\\AulasBalta\\Blog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Jefferson\\Desktop\\Desenvolvimento\\Sharp\\Blog\\Blog.csproj",
+        "projectUniqueName": "E:\\Users\\jefferson.maia\\Desktop\\Desenvolvimento\\Sharp\\Balta\\AulasBalta\\Blog.csproj",
         "projectName": "Blog",
-        "projectPath": "D:\\Users\\Jefferson\\Desktop\\Desenvolvimento\\Sharp\\Blog\\Blog.csproj",
-        "packagesPath": "C:\\Users\\Jefferson\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Jefferson\\Desktop\\Desenvolvimento\\Sharp\\Blog\\obj\\",
+        "projectPath": "E:\\Users\\jefferson.maia\\Desktop\\Desenvolvimento\\Sharp\\Balta\\AulasBalta\\Blog.csproj",
+        "packagesPath": "C:\\Users\\jefferson.maia\\.nuget\\packages\\",
+        "outputPath": "E:\\Users\\jefferson.maia\\Desktop\\Desenvolvimento\\Sharp\\Balta\\AulasBalta\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jefferson\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jefferson.maia\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,12 +32,23 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameWorkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.8, )"
@@ -63,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.119/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace blog.Models
 {
-    [Table("Post")]
+
     public class Post
     {
         [Key]
@@ -19,13 +19,11 @@ namespace blog.Models
         public string Slug { get; set; }
         public DateTime CreateDate { get; set; }
         public DateTime LastUpdateDate { get; set; }
-
-        [ForeignKey("CategoryId")]
         public int CategoryId { get; set; }
         public Category Category { get; set; }
-
-        [ForeignKey("AuthorId")]
         public int AuthorId { get; set; }
         public User Author { get; set; }
+        
+        public IList<Tag> Tags { get; set; }
     }
 }
