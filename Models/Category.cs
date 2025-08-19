@@ -13,7 +13,17 @@ namespace blog.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        public string name { get; set; }
+
+        [Required]
+        [MaxLength(80)]
+        [MinLength(3)]
+        [Column("Name", TypeName = "NVARCHAR")]
+        public string Name { get; set; }
+
+        [Required]
+        [MaxLength(80)]
+        [MinLength(3)]
+        [Column("Slug", TypeName = "VARCHAR")]
         public string Slug { get; set; }
     }
 }

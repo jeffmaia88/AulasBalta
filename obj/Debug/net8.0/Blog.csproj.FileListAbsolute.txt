@@ -68,3 +68,4 @@ D:\Users\Jefferson\Desktop\Desenvolvimento\Sharp\Blog\obj\Debug\net8.0\refint\Bl
 D:\Users\Jefferson\Desktop\Desenvolvimento\Sharp\Blog\obj\Debug\net8.0\Blog.pdb
 D:\Users\Jefferson\Desktop\Desenvolvimento\Sharp\Blog\obj\Debug\net8.0\Blog.genruntimeconfig.cache
 D:\Users\Jefferson\Desktop\Desenvolvimento\Sharp\Blog\obj\Debug\net8.0\ref\Blog.dll
+D:\Users\Jefferson\Desktop\Desenvolvimento\Sharp\Blog\obj\Debug\net8.0\Blog.sourcelink.json
